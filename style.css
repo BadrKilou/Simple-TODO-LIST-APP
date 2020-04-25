@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Caladea|Roboto&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background: rgba(183,222,237,1);
+    background: -moz-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(33,180,226,0.86) 51%, rgba(33,178,224,0.85) 53%, rgba(22,137,179,0.85) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(183,222,237,1)), color-stop(51%, rgba(33,180,226,0.86)), color-stop(53%, rgba(33,178,224,0.85)), color-stop(100%, rgba(22,137,179,0.85)));
+    background: -webkit-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(33,180,226,0.86) 51%, rgba(33,178,224,0.85) 53%, rgba(22,137,179,0.85) 100%);
+    background: -o-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(33,180,226,0.86) 51%, rgba(33,178,224,0.85) 53%, rgba(22,137,179,0.85) 100%);
+    background: -ms-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(33,180,226,0.86) 51%, rgba(33,178,224,0.85) 53%, rgba(22,137,179,0.85) 100%);
+    background: linear-gradient(to right, rgba(183,222,237,1) 0%, rgba(33,180,226,0.86) 51%, rgba(33,178,224,0.85) 53%, rgba(22,137,179,0.85) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#1689b3', GradientType=1 );
+    font-family: 'Caladea';
+}
+
+.delete{
+    cursor: pointer;
+    color: red;
+}
+.delete i{
+    color: red;
+    font-size: 20px;
+}
+
+
+.card{
+    border-radius: 10px;
+    padding: 10px 12px;
+    -webkit-box-shadow: 1px 3px 9px 0px rgba(36,39,51,1);
+    -moz-box-shadow: 1px 3px 9px 0px rgba(36,39,51,1);
+    box-shadow: 1px 3px 9px 0px rgba(36,39,51,1);
+    background: seashell;
+}
+.alert{
+    color: rgb(255, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+}
+.list-group-item:hover{
+    background-color: rgb(163, 211, 255);
+    transition: .5s;
+}
+.button{
+    text-align: center;
+}
